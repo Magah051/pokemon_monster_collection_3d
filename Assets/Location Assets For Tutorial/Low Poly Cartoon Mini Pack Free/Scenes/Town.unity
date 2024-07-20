@@ -8122,6 +8122,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: a2061b8bc213b5c44b24a5e946527631, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1651506796}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: a2061b8bc213b5c44b24a5e946527631, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1651506797}
   m_SourcePrefab: {fileID: 100100000, guid: a2061b8bc213b5c44b24a5e946527631, type: 3}
 --- !u!4 &1371600684 stripped
 Transform:
@@ -9511,6 +9514,19 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &1651506797
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1651506794}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cedcc9c5648cd8540936c4e609a3f095, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  motion: 0
 --- !u!4 &1653994343 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 5909673296382948065, guid: 91f37005e8ce642dea4d711a3e6db19c, type: 3}
@@ -10294,7 +10310,7 @@ MonoBehaviour:
     m_DecelTime: 0.1
     m_InputAxisName: Mouse X
     m_InputAxisValue: 0
-    m_InvertInput: 1
+    m_InvertInput: 0
     m_MinValue: -180
     m_MaxValue: 180
     m_Wrap: 1
