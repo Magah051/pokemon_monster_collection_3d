@@ -66,6 +66,7 @@ public class CharacterMovement : MonoBehaviour
     private void HandleAnimation()
     {
         animate.motion = moveVectorInput.magnitude;
+
     }
 
 }
